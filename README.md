@@ -1,5 +1,4 @@
-![image](https://imgur.com/isKgOVA)
-
+![image](https://i.imgur.com/isKgOVA.png)
 # GraphQL Socket IO Angular 9
 Chat application with GraphQL Sokcet IO and Angular 9
 
