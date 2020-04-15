@@ -1,0 +1,29 @@
+<main>
+    <div class="message-wrap">
+      <div *ngFor="let msg of userMessages" class="message left">
+        <div class="user-short user-img">{{msg.user_short}}</div>
+        <div class="msg-detail">
+          <div class="msg-info">
+            <p>{{msg.userName}}</p>
+          </div>
+          <div class="msg-content">
+            <span class="triangle"></span>
+            <p class="line-breaker ">{{msg.message}}</p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+</main>
+  
+<footer>
+    <div class="input-group">
+    <div class="input-group">
+        <input type="text" [(ngModel)]="username" class="form-control col-sm-2" id="username" placeholder="name"  aria-describedby="username">         
+        <input type="text" [(ngModel)]="message" class="form-control" placeholder="enter message" aria-label="enter message">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button" (click)="sendMessage()">Enter</button>
+        </div>
+    </div>
+    </div>
+</footer>

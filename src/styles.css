@@ -1,0 +1,87 @@
+/* You can add global styles to this file, and also import other style files */
+.user-short{
+	padding: 10px 0 0 15px;
+    font-size: 18px;
+    background: #fff;
+    margin: 26px 0 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}    
+footer {
+    position: fixed;
+    bottom: 0;
+}
+.message-wrap {
+    padding: 0 10px;
+}
+.message-wrap .message {
+	position: relative;
+    padding: 7px 0;
+}
+.message-wrap .message .msg-detail {
+	width: 100%;
+    display: inline-block;
+}
+.message-wrap .message .msg-detail p {
+    margin: 0;
+}
+.message-wrap .message .msg-detail .msg-info p {
+	font-size: .8em;
+    color: #888;
+}
+.message-wrap .message .msg-detail .msg-content {
+	position: relative;
+	margin-top: 5px;
+	border-radius: 5px;
+	padding: 8px;
+	border: 1px solid #ddd;
+	color: #fff;
+	width: auto;
+	max-width: 80%;
+	box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+}
+.message-wrap .message .msg-detail .msg-content span.triangle {
+	background-color: #fff;
+	border-radius: 2px;
+	height: 8px;
+	width: 8px;
+	top: 12px;
+	display: block;
+	border-style: solid;
+	border-color: rgb(87, 76, 76);
+	border-width: 1px;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+    position: absolute;
+}
+.message-wrap .message.left .msg-content {
+	background-color: #fff;
+    float: left;
+}
+.message-wrap .message.left .msg-detail {
+	padding-left: 60px; 
+}
+.message-wrap .message.left .msg-detail .msg-content {
+    color: #343434;
+}
+.message-wrap .message.left .msg-detail .msg-content span.triangle {
+    border-top-width: 0;
+    border-right-width: 0;
+    left: -5px;
+}
+.message-wrap .message .user-img {
+    position: absolute;
+    border-radius: 45px;
+    width: 45px;
+    height: 45px;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+}
+.message-wrap .message.left .user-img {
+    left: 0;
+}
