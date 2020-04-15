@@ -1,6 +1,7 @@
 {
-  "name": "hello-graphql",
+  "name": "Chat",
   "version": "0.0.0",
+  "author": "Varghese, Vinod",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
